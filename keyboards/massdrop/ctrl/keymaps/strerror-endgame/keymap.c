@@ -140,7 +140,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
 const uint8_t PROGMEM ledmap[][DRIVER_LED_TOTAL][3] = {
     [_FL] = {
-        _______,   CORAL,   CORAL, _______, _______,   CORAL,   CORAL, _______, _______,   CORAL, _______,    GRAY,    GRAY,          TEAL,    GOLD,   GOLD,
+        _______,   CORAL,   CORAL, _______, _______,   CORAL,   CORAL, _______, _______,   CORAL, _______,    GREY,    GREY,          TEAL,    GOLD,   GOLD,
         _______, _______,    GOLD,    GOLD,    GOLD,    GOLD, _______, _______, _______,    BLUE,    BLUE,    BLUE,    BLUE, _______, TEAL,    TEAL,   TEAL,
            BLUE,    BLUE,    BLUE,    BLUE,    BLUE,    BLUE, _______,     RED,     RED, _______, _______, _______, _______, _______, TEAL,    TEAL,   TEAL,
         _______,    BLUE,    BLUE,    BLUE,    BLUE,    BLUE, _______, _______, _______, _______, _______, _______, _______,
