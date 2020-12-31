@@ -276,7 +276,7 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
         // The Yakuake config uses LGUI+Ctrl+Shift+<keycode>. KC_NO used for undesired key, all mapped ones get mods.
         // should be able to remove a chunk of this logic
         // if (get_highest_layer(layer_state) == _YL && keycode != TG(_YL)) {
-        if (get_highest_layer(layer_state) == _HL && keycode != TG(_HL)) {
+        if (get_highest_layer(layer_state) == _VL && keycode != TG(_VL)) {
             tap_code16(C(G(S(keycode))));
             return false;
         }
